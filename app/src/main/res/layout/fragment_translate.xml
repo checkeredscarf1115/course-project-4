@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.slideshow.TranslateFragment"
+    android:padding="5dp"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/et_source_lang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp"
+                android:hint="@string/enter_text"
+                android:gravity="start"
+                style="@style/text_df"
+                />
+
+            <TextView
+                android:id="@+id/tv_destination_lang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/text_df_margin"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/options"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@id/btn_translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_translate"
+        >
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_choose_source_lang"
+            android:layout_weight="1"
+            android:text="@string/base_source_lang_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="@string/from_to"
+            android:padding="4dp"
+            style="@style/text_df"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_choose_destination_lang"
+            android:layout_weight="1"
+            android:text="@string/base_destination_lang_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_translate"
+        android:text="@string/translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

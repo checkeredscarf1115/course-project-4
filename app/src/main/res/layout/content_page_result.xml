@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_page_result"
+    style="@style/linear_layout_df"
+    android:id="@+id/lin_layout"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textview_orig_word"
+        android:text="@string/orig_word"
+        style="@style/text_bold"
+        />
+
+    <TextView style="@style/line_under_item" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pageresult_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        />
+</LinearLayout>
+</FrameLayout>

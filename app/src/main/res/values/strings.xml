@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_search">Search</string>
+    <string name="menu_bookmarks">Bookmarks</string>
+    <string name="menu_translate">Translate</string>
+    <string name="menu_translation">Translation</string>
+    <string name="quick_transl">Quick lookup</string>
+    <string name="from_to">—></string>
+    <string name="hint_translate_from">Language to translate from</string>
+    <string name="hint_translate_to">Language to translate to</string>
+    <string name="word_to_translate">Looking for…</string>
+    <string name="need_transl">Need translation?</string>
+    <string name="need_example">Need examples?</string>
+    <string name="orig_word">insert_word_then_the_rest</string>
+    <string name="synonyms">synonyms:</string>
+    <string name="antonyms">antonyms:</string>
+    <string name="contexts">contexts:</string>
+    <string name="translate">TRANSLATE</string>
+    <string name="base_source_lang_title">ENGLISH</string>
+    <string name="base_destination_lang_title">URDU</string>
+    <string name="enter_text">Enter text</string>
+</resources>

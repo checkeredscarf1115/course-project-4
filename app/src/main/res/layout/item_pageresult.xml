@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    >
+
+    <TextView
+        android:id="@+id/word_comp_to"
+        style="@style/text_df"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/defFrom"
+        style="@style/text_df"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/word_comp_to" />
+
+    <TextView
+        android:id="@+id/defTo"
+        style="@style/text_df"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/defFrom" />
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/syns_buttons_layout"
+        app:flexWrap="wrap"
+        app:alignItems="stretch"
+        app:alignContent="stretch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/defTo"
+        >
+        <TextView
+            style="@style/text_bold"
+            android:text="@string/synonyms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/ants_buttons_layout"
+        app:flexWrap="wrap"
+        app:alignItems="stretch"
+        app:alignContent="stretch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/syns_buttons_layout"
+        >
+        <TextView
+            style="@style/text_bold"
+            android:text="@string/antonyms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <TextView
+        android:id="@+id/context"
+        style="@style/text_bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/ants_buttons_layout"
+        />
+
+    <TextView
+        style="@style/line_under_item"
+        app:layout_constraintTop_toBottomOf="@id/context"
+        
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

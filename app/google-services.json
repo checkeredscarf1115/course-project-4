@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "452042401015",
+    "project_id": "andr-dict-stud",
+    "storage_bucket": "andr-dict-stud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452042401015:android:daa6c43afc05f9f4d6dff2",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452042401015-kbg156ilpurafg6k7ueunthpcfsptje5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "6f457a250a68697a9ea2d9e657b541642c022396"
+          }
+        },
+        {
+          "client_id": "452042401015-e3m3h9dverfkirem1ntbl1hch0defied.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQH9LtCbzMBtwOmhKKBOHQumXHPdqcHBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452042401015-e3m3h9dverfkirem1ntbl1hch0defied.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

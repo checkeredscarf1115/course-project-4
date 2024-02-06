@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="text_df_margin" parent="text_df">
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="text_df">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0</item>
+    </style>
+    <style name="linear_layout_df">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="text_bold" parent="text_df_margin">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="spinner_df">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+    </style>
+    <style name="line_under_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@android:color/darker_gray</item>
+        <item name="android:maxHeight">2dp</item>
+    </style>
+</resources>
